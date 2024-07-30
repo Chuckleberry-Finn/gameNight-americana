@@ -1,0 +1,16 @@
+version=1
+title=Game Night: ADDON_NAME
+description=[h2]Add-On for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3058279917]GameNight[/url].[/h2]
+description=[h3]DESCRIBE_YOUR_ADD_ON_HERE[/h3]
+description=[i]DESCRIBE_ADD_ONS_FEATURES_IN_MORE_DETAIL[/i]
+description=
+description=[url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
+description=
+description=[url=https://github.com/Chuckleberry-Finn/game-night][img]https://raw.githubusercontent.com/Chuckleberry-Finn/game-night/main/images/addOnGuideBanner.png[/img][/url]
+description=
+description=[i][b]GAME_TITLE[/b] is a registered trademark of GAME_COMPANY. Copyright GAME_COMPANY. All rights reserved.[/i]
+description=
+description=
+description=[h3]Copyright 2024 AUTHOR. This item is not authorized for posting on Steam, except under the Steam account(s) named AUTHOR.[/h3]
+tags=Build 41;Multiplayer;Pop Culture;Silly/Fun
+visibility=public

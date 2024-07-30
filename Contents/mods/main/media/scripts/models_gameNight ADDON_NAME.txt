@@ -1,0 +1,15 @@
+module Base
+{
+
+    model CARD_ITEM_TYPE_MODEL { mesh = WorldItems/cardpack, texture = Item_PrayerCards/deckTexture, scale = 0.033, }
+
+    model ADDON_NAMEBoard_Ground
+    {
+        mesh = WorldItems/BackgammonBoard,
+        texture = Item_InPlayTextures/ADDON_NAMEBoard,
+        scale = 0.30,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model ADDON_NAMEBox { mesh = WorldItems/cardpack, texture = Item_Boxes/ADDON_NAMEBox_ground, scale = 0.06, }
+}

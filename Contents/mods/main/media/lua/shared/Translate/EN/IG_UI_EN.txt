@@ -1,0 +1,3 @@
+IGUI_EN = {
+    IGUI_CARD_ITEM_TYPE = "GAME Card",
+}

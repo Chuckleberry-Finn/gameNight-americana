@@ -1,0 +1,3 @@
+ItemName_EN = {
+    ItemName_Base.CARD_ITEM_TYPE = "GAME Deck",
+}

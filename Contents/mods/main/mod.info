@@ -1,0 +1,5 @@
+name=Game Night - ADDON_NAME
+id=gamenight_ADDON_NAME
+description=
+poster=poster.png
+require=gamenight
