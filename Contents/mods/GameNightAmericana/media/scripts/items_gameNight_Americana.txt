@@ -16,6 +16,12 @@ module Base
         WorldStaticModel = AmericanaTilesStarter,
     }
 
+	item Americana_Scorecard
+    {
+        DisplayCategory = GamePiece, Weight = 0.01, Type = Normal,
+        DisplayName = Americana Scorecard, Icon = OutOfPlayTextures/Americana_Scorecard, WorldStaticModel = americanaScorecard ,
+    }
+
 	item RedMeeple
     {
         DisplayCategory = GamePiece, Weight = 0.01, Type = Normal,

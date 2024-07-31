@@ -7,9 +7,8 @@ gameNightDistro.proceduralDistGameNight.itemsToAdd["AmericanaBox"] = {}
 gameNightDistro.gameNightBoxes["AmericanaBox"] = {
     rolls = 1,
     items = {
-        "AmericanaTiles", 9999,
-		"AmericanaStarter", 9999,
-		
+        "AmericanaTiles", 9999, "AmericanaStarter", 9999, "Americana_Scorecard", 9999,
+
 		"RedMeeple", 9999, "RedMeeple", 9999, "RedMeeple", 9999, "RedMeeple", 9999, "RedMeeple", 9999, "RedMeeple", 9999, "RedMeeple", 9999, "RedMeeple", 9999,
 		"BlackMeeple", 9999, "BlackMeeple", 9999, "BlackMeeple", 9999, "BlackMeeple", 9999, "BlackMeeple", 9999, "BlackMeeple", 9999, "BlackMeeple", 9999, "BlackMeeple", 9999, 
 		"YellowMeeple", 9999, "YellowMeeple", 9999, "YellowMeeple", 9999, "YellowMeeple", 9999, "YellowMeeple", 9999, "YellowMeeple", 9999, "YellowMeeple", 9999, "YellowMeeple", 9999, 

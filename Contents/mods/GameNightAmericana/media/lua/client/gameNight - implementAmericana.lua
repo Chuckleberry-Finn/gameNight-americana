@@ -46,9 +46,17 @@ gamePieceAndBoardHandler.registerSpecial("Base.AmericanaStarter", {
 })
 
 
-gamePieceAndBoardHandler.registerTypes({"Base.RedMeeple", "Base.BlackMeeple", "Base.YellowMeeple", "Base.BlueMeeple", "Base.GreenMeeple"})
+gamePieceAndBoardHandler.registerSpecial("Base.Americana_Scorecard",{
+	shiftAction = "examine", actions = {examine=true}, textureSize = {382.14,250.14},
+	alternateStackRendering = { func="DrawTextureCardFace", depth=2, rgb = {0.640, 0.620, 0.615} }
+})
+
 gamePieceAndBoardHandler.registerSpecial("Base.RedMeeple", { noRotate = true })
 gamePieceAndBoardHandler.registerSpecial("Base.BlackMeeple", { noRotate = true })
 gamePieceAndBoardHandler.registerSpecial("Base.YellowMeeple", { noRotate = true })
 gamePieceAndBoardHandler.registerSpecial("Base.BlueMeeple", { noRotate = true })
 gamePieceAndBoardHandler.registerSpecial("Base.GreenMeeple", { noRotate = true })
+
+
+---TYPE REGISTER
+gamePieceAndBoardHandler.registerTypes({"Base.Americana_Scorecard", "Base.RedMeeple", "Base.BlackMeeple", "Base.YellowMeeple", "Base.BlueMeeple", "Base.GreenMeeple"})
