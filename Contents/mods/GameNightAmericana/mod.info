@@ -1,0 +1,5 @@
+name=Game Night - Americana
+id=gamenight_cmg_americana
+description=Carcas- I mean the totally legally distinct Americana game for Game Night
+poster=poster.png
+require=gamenight

@@ -1,16 +1,18 @@
 version=1
-title=Game Night: ADDON_NAME
+title=Game Night: Americana
 description=[h2]Add-On for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3058279917]GameNight[/url].[/h2]
-description=[h3]DESCRIBE_YOUR_ADD_ON_HERE[/h3]
-description=[i]DESCRIBE_ADD_ONS_FEATURES_IN_MORE_DETAIL[/i]
+description=[h3]A legally distinct reskin of Carcassonne for Game Night.[/h3]
+description=[i]Rules are exactly the same, just with new tiles. To rotate the tiles use the scrollwheel after grabbing the placed tiles. :)[/i]
+description=
+description=Made for the Game in a Game in a Week Jam
 description=
 description=[url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
 description=
 description=[url=https://github.com/Chuckleberry-Finn/game-night][img]https://raw.githubusercontent.com/Chuckleberry-Finn/game-night/main/images/addOnGuideBanner.png[/img][/url]
 description=
-description=[i][b]GAME_TITLE[/b] is a registered trademark of GAME_COMPANY. Copyright GAME_COMPANY. All rights reserved.[/i]
+description=[i][b]Carcassonne[/b] is a registered trademark of Z-Man Games. Copyright Z-Man Games. All rights reserved.[/i]
+description=Meeple made by Delapouite for game-icons.net under CC BY 3.0 - https://creativecommons.org/licenses/by/3.0/
 description=
-description=
-description=[h3]Copyright 2024 AUTHOR. This item is not authorized for posting on Steam, except under the Steam account(s) named AUTHOR.[/h3]
+description=[h3]Copyright 2024 Celene and Chuckleberry Finn. This item is not authorized for posting on Steam, except under the Steam account(s) named Celene and Chuckleberry Finn.[/h3]
 tags=Build 41;Multiplayer;Pop Culture;Silly/Fun
 visibility=public

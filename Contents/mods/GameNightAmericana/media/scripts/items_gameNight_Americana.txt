@@ -1,0 +1,56 @@
+module Base
+{
+    item AmericanaTiles
+    {
+        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+        DisplayName = Americana Tiles,
+        Icon = AmericanaTiles/deck,
+        WorldStaticModel = AmericanaTile,
+    }
+	
+	item AmericanaStarter
+    {
+        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+        DisplayName = Americana Starter Tile,
+        Icon = AmericanaStarter/deck,
+        WorldStaticModel = AmericanaTilesStarter,
+    }
+
+	item RedMeeple
+    {
+        DisplayCategory = GamePiece, Weight = 0.01, Type = Normal,
+        DisplayName = Red Meeple, Icon = OutOfPlayTextures/RedMeeple, WorldStaticModel = PokerChipsOrange ,
+    }
+	item BlackMeeple
+    {
+        DisplayCategory = GamePiece, Weight = 0.01, Type = Normal,
+        DisplayName = Black Meeple, Icon = OutOfPlayTextures/BlackMeeple, WorldStaticModel = PokerChipsBlack ,
+    }
+	item YellowMeeple
+    {
+        DisplayCategory = GamePiece, Weight = 0.01, Type = Normal,
+        DisplayName = Yellow Meeple, Icon = OutOfPlayTextures/YellowMeeple, WorldStaticModel = PokerChipsYellow ,
+    }
+	item BlueMeeple
+    {
+        DisplayCategory = GamePiece, Weight = 0.01, Type = Normal,
+        DisplayName = Blue Meeple, Icon = OutOfPlayTextures/BlueMeeple, WorldStaticModel = PokerChipsBlue ,
+    }
+	item GreenMeeple
+    {
+        DisplayCategory = GamePiece, Weight = 0.01, Type = Normal,
+        DisplayName = Green Meeple, Icon = OutOfPlayTextures/GreenMeeple, WorldStaticModel = PokerChipsGreen ,
+    }
+
+    item AmericanaBox
+    {
+        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
+        DisplayName = Americana Box, Icon = Boxes/americanaBox, WorldStaticModel = AmericanaBox,
+    }
+
+    item AmericanaBox_sealed
+    {
+        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Normal, Capacity = 2,
+        DisplayName = Americana Box (Sealed), Icon = Boxes/americanaBox, WorldStaticModel = AmericanaBox,
+    }
+}
