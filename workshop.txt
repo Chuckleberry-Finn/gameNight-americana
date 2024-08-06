@@ -1,4 +1,5 @@
 version=1
+id=3289537326
 title=Game Night: Americana
 description=[h2]Add-On for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3058279917]GameNight[/url].[/h2]
 description=[h3]A legally distinct reskin of Carcassonne for Game Night.[/h3]
