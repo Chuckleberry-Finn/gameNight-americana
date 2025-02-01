@@ -1,0 +1,37 @@
+module Base
+{
+    model AmericanaTiles
+    {
+        mesh = WorldItems/cardpack,
+        texture = Item_AmericanaTiles/deckTexture,
+        scale = 0.02,
+    }
+
+    model americanaScorecard
+    {
+        mesh = WorldItems/cardpack,
+        texture = Item_InPlayTextures/Americana_Scorecard,
+        scale = 0.02,
+    }
+
+    model AmericanaTile
+    {
+        mesh = WorldItems/card,
+        texture = Item_AmericanaTiles/deckTexture,
+        scale = 0.02,
+    }
+	
+	model AmericanaTilesStarter
+    {
+        mesh = WorldItems/card,
+        texture = Item_AmericanaStarter/deckTexture,
+        scale = 0.02,
+    }
+
+    model AmericanaBox
+    {
+        mesh = WorldItems/cardpack,
+        texture = Item_Boxes/americanaBox_ground,
+        scale = 0.06,
+    }
+}
