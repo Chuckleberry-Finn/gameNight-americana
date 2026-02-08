@@ -9,6 +9,8 @@ description=Made for the Game in a Game in a Week Jam
 description=
 description=[url=https://discord.gg/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
 description=
+description=[url=https://chuckleberry-finn.github.io/issues/][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/bugHunt.png[/img][/url]
+description=
 description=[url=https://github.com/Chuckleberry-Finn/game-night][img]https://raw.githubusercontent.com/Chuckleberry-Finn/game-night/main/images/addOnGuideBanner.png[/img][/url]
 description=
 description=[i][b]Carcassonne[/b] is a registered trademark of Z-Man Games. Copyright Z-Man Games. All rights reserved.[/i]
