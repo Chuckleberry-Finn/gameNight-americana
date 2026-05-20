@@ -1,6 +1,6 @@
-local applyItemDetails = require "gameNight - applyItemDetails"
+local applyItemDetails = require("gameNight-applyItemDetails.lua")
 local deckActionHandler = applyItemDetails.deckActionHandler
-local gamePieceAndBoardHandler = applyItemDetails.gamePieceAndBoardHandler
+local gamePieceHandler = applyItemDetails.gamePieceHandler
 
 local americanaGeneral = {}
 
@@ -31,7 +31,7 @@ for cardID, numberOf in pairs(americanaGeneral.tilesToCount) do
 	americanaGeneral.names[cardID] = "Americana Tile"
 end
 deckActionHandler.addDeck("AmericanaTiles", americanaGeneral.tiles, americanaGeneral.names)
-gamePieceAndBoardHandler.registerSpecial("Base.AmericanaTiles", {
+gamePieceHandler.registerSpecial("Base.AmericanaTiles", {
 	moveSound = "pieceMove", actions = {examine=true}, examineScale = 1, textureSize = {90,90}
 })
 
@@ -41,22 +41,18 @@ local americanaStarter = {}
 americanaStarter.tiles = {"CRFR"}
 americanaStarter.names = {["CRFR"]="Starter Tile"}
 deckActionHandler.addDeck("AmericanaStarter", americanaStarter.tiles, americanaStarter.names)
-gamePieceAndBoardHandler.registerSpecial("Base.AmericanaStarter", {
+gamePieceHandler.registerSpecial("Base.AmericanaStarter", {
 	moveSound = "pieceMove", actions = {examine=true}, examineScale = 1, textureSize = {90,90}
 })
 
 
-gamePieceAndBoardHandler.registerSpecial("Base.Americana_Scorecard",{
+gamePieceHandler.registerSpecial("Base.Americana_Scorecard",{
 	shiftAction = "examine", actions = {examine=true}, textureSize = {382.14,250.14},
 	alternateStackRendering = { func="DrawTextureCardFace", depth=2, rgb = {0.640, 0.620, 0.615} }
 })
 
-gamePieceAndBoardHandler.registerSpecial("Base.RedMeeple", { noRotate = true })
-gamePieceAndBoardHandler.registerSpecial("Base.BlackMeeple", { noRotate = true })
-gamePieceAndBoardHandler.registerSpecial("Base.YellowMeeple", { noRotate = true })
-gamePieceAndBoardHandler.registerSpecial("Base.BlueMeeple", { noRotate = true })
-gamePieceAndBoardHandler.registerSpecial("Base.GreenMeeple", { noRotate = true })
-
-
----TYPE REGISTER
-gamePieceAndBoardHandler.registerTypes({"Base.Americana_Scorecard", "Base.RedMeeple", "Base.BlackMeeple", "Base.YellowMeeple", "Base.BlueMeeple", "Base.GreenMeeple"})
+gamePieceHandler.registerSpecial("Base.RedMeeple", { noRotate = true })
+gamePieceHandler.registerSpecial("Base.BlackMeeple", { noRotate = true })
+gamePieceHandler.registerSpecial("Base.YellowMeeple", { noRotate = true })
+gamePieceHandler.registerSpecial("Base.BlueMeeple", { noRotate = true })
+gamePieceHandler.registerSpecial("Base.GreenMeeple", { noRotate = true })
