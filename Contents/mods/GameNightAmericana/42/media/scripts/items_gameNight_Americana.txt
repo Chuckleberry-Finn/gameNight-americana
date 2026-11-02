@@ -41,4 +41,9 @@ module Base
         DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, ItemType = base:container, Capacity = 2,
         Icon = Boxes/americanaBox, WorldStaticModel = AmericanaBox,
     }
+
+    item AmericanaBox_sealed {
+        DisplayCategory = GameBox, Weight = 0.1, ItemType = base:normal,
+        Icon = Boxes/americanaBox, WorldStaticModel = AmericanaBox,
+    }
 }

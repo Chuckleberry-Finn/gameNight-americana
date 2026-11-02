@@ -7,5 +7,6 @@
     "Base.YellowMeeple": "Yellow Meeple",
     "Base.BlueMeeple": "Blue Meeple",
     "Base.GreenMeeple": "Green Meeple",
-    "Base.AmericanaBox": "Americana Box"
+    "Base.AmericanaBox": "Americana Box",
+    "Base.AmericanaBox_sealed": "Americana Box (Sealed)"
 }
